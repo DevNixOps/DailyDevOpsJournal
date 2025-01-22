@@ -1,21 +1,25 @@
-Azure DevOps Pipeline Trigger Script
+# Azure DevOps Pipeline Trigger Script
 
-This Python script allows you to automate triggering pipelines in Azure DevOps for specific branches using a CSV file as input.
+A Python script to automate the process of triggering Azure DevOps pipelines for specific branches using a CSV file as input.
 
-Features
-	•	Fetch pipeline IDs dynamically based on their names.
-	•	Trigger pipelines for specified branches.
-	•	Process multiple pipelines and branches from a CSV file.
-	•	Includes error handling for failed pipeline triggers and missing files.
+## Features
 
- Requirements
-	•	Python 3.x
-	•	Libraries:
-	•	requests
-	•	base64
-	•	csv
-	•	time
-	•	sys
+- Dynamically fetch pipeline IDs based on their names.
+- Trigger pipelines for specified branches.
+- Process multiple pipelines and branches from a CSV file.
+- Includes error handling for missing pipelines, API failures, and file errors.
 
-You can install the required libraries using:
-```pip install requests```
+## Prerequisites
+
+- **Python 3.x**
+- Required Python Libraries:
+  - `requests`
+  - `base64`
+  - `csv`
+  - `time`
+  - `sys`
+
+Install the required libraries using:
+
+```bash
+pip install requests
