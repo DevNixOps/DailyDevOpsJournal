@@ -47,6 +47,29 @@ pip install requests
    personal_access_token = "your_personal_access_token"
    ```
    
+3. **Prepare Input CSV File**
+   Create a CSV file that lists pipeline names and branches in the following format:
+   ```csv
+   pipeline_name,branch_name
+   ExamplePipeline,main
+   AnotherPipeline,develop
+   ```
+
+   Save the file (e.g., pipelines.csv) in the same directory as the script or note its full path.
+
+
+
+## Usage
+
+Run the script by providing the path to the CSV file as an argument:
+```bash
+python trigger_pipelines.py <file_path>
+```
+
+## Example Command:
+```bash
+python trigger_pipelines.py pipelines.csv
+```
 
 
 ## Script Workflow
@@ -59,3 +82,40 @@ pip install requests
 
 3. **Error Handling**  
    If a pipeline is not found or triggering fails, the script logs the error and proceeds to the next entry.
+
+
+## Example Output
+
+```bash
+Processing pipeline: ExamplePipeline on branch: main
+Pipeline 123 triggered successfully for branch 'main'!
+
+Processing pipeline: AnotherPipeline on branch: develop
+Pipeline 'AnotherPipeline' not found.
+```
+
+
+## Error Handling
+
+- **File Not Found**  
+  Displays an error if the specified CSV file is missing.
+
+- **Pipeline Not Found**  
+  Logs a message if the specified pipeline does not exist in Azure DevOps.
+
+- **API Failures**  
+  Logs the response from the Azure DevOps API if a request fails.
+
+
+  ## Notes
+
+- Ensure your Personal Access Token (PAT) has sufficient permissions to:
+  - Read pipelines.
+  - Trigger builds.
+- Keep your PAT secure and do not share it publicly.
+- Optionally, modify the script to include a delay between API calls to avoid rate-limiting issues.
+
+
+## License
+
+This script is licensed under the MIT License. Feel free to use and modify it as needed.
