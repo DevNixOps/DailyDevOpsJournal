@@ -23,3 +23,15 @@ Install the required libraries using:
 
 ```bash
 pip install requests
+```
+
+# Setup
+	1.	Clone this repository or download the script file.
+	2.	Configure the following parameters in the script:
+
+ ```
+	•	organization: Your Azure DevOps organization name.
+	•	project: Your Azure DevOps project name.
+	•	personal_access_token: Your Azure DevOps Personal Access Token (PAT).
+ ```
+**Example:**
