@@ -3,7 +3,7 @@ spring:
     name: email-74-service
   datasource:
     url: jdbc:postgresql://localhost:3306/email-74_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8074

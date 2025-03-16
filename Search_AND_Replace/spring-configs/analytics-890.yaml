@@ -3,7 +3,7 @@ spring:
     name: analytics-890-service
   datasource:
     url: jdbc:postgresql://localhost:3306/analytics-890_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8890

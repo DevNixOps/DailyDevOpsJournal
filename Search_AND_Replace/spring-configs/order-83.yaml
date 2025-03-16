@@ -3,7 +3,7 @@ spring:
     name: order-83-service
   datasource:
     url: jdbc:postgresql://localhost:3306/order-83_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8083

@@ -3,7 +3,7 @@ spring:
     name: gateway-769-service
   datasource:
     url: jdbc:postgresql://localhost:3306/gateway-769_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8769

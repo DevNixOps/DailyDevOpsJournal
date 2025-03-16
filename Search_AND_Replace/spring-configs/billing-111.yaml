@@ -3,7 +3,7 @@ spring:
     name: billing-111-service
   datasource:
     url: jdbc:postgresql://localhost:3306/billing-111_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8111

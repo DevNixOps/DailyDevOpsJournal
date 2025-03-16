@@ -3,7 +3,7 @@ spring:
     name: shipping-949-service
   datasource:
     url: jdbc:postgresql://localhost:3306/shipping-949_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8949

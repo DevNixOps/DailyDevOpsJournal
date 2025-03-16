@@ -3,7 +3,7 @@ spring:
     name: logging-477-service
   datasource:
     url: jdbc:postgresql://localhost:3306/logging-477_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8477

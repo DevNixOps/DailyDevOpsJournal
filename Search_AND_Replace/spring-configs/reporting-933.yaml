@@ -3,7 +3,7 @@ spring:
     name: reporting-933-service
   datasource:
     url: jdbc:postgresql://localhost:3306/reporting-933_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8933

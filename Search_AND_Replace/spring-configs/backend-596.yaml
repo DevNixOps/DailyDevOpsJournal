@@ -3,7 +3,7 @@ spring:
     name: backend-596-service
   datasource:
     url: jdbc:postgresql://localhost:3306/backend-596_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8596

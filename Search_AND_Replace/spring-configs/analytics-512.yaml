@@ -3,7 +3,7 @@ spring:
     name: analytics-512-service
   datasource:
     url: jdbc:postgresql://localhost:3306/analytics-512_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8512

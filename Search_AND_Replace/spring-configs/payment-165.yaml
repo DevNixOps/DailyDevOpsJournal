@@ -3,7 +3,7 @@ spring:
     name: payment-165-service
   datasource:
     url: jdbc:postgresql://localhost:3306/payment-165_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8165

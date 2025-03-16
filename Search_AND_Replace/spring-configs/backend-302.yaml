@@ -3,7 +3,7 @@ spring:
     name: backend-302-service
   datasource:
     url: jdbc:postgresql://localhost:3306/backend-302_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8302

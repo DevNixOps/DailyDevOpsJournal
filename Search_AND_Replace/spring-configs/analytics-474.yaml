@@ -3,7 +3,7 @@ spring:
     name: analytics-474-service
   datasource:
     url: jdbc:postgresql://localhost:3306/analytics-474_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8474

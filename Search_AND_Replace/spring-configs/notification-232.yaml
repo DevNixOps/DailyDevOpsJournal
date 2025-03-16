@@ -3,7 +3,7 @@ spring:
     name: notification-232-service
   datasource:
     url: jdbc:postgresql://localhost:3306/notification-232_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8232

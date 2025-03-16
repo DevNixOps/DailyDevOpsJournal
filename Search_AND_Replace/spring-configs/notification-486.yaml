@@ -3,7 +3,7 @@ spring:
     name: notification-486-service
   datasource:
     url: jdbc:postgresql://localhost:3306/notification-486_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8486

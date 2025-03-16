@@ -3,7 +3,7 @@ spring:
     name: order-181-service
   datasource:
     url: jdbc:postgresql://localhost:3306/order-181_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8181

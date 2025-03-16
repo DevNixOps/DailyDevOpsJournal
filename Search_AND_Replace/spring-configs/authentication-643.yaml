@@ -3,7 +3,7 @@ spring:
     name: auth-service-643-service
   datasource:
     url: jdbc:postgresql://localhost:3306/auth-service-643_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8643

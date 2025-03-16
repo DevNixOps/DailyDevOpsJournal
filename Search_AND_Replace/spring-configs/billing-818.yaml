@@ -3,7 +3,7 @@ spring:
     name: billing-818-service
   datasource:
     url: jdbc:postgresql://localhost:3306/billing-818_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8818

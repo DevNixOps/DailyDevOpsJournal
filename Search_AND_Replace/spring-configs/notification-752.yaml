@@ -3,7 +3,7 @@ spring:
     name: notification-752-service
   datasource:
     url: jdbc:postgresql://localhost:3306/notification-752_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8752

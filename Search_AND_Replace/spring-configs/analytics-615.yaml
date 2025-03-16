@@ -3,7 +3,7 @@ spring:
     name: analytics-615-service
   datasource:
     url: jdbc:postgresql://localhost:3306/analytics-615_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8615

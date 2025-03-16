@@ -3,7 +3,7 @@ spring:
     name: logging-571-service
   datasource:
     url: jdbc:postgresql://localhost:3306/logging-571_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8571

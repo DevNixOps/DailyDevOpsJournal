@@ -3,7 +3,7 @@ spring:
     name: user-936-service
   datasource:
     url: jdbc:postgresql://localhost:3306/user-936_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8936

@@ -3,7 +3,7 @@ spring:
     name: search-101-service
   datasource:
     url: jdbc:postgresql://localhost:3306/search-101_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8101

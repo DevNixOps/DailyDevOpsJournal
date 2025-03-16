@@ -3,7 +3,7 @@ spring:
     name: notification-470-service
   datasource:
     url: jdbc:postgresql://localhost:3306/notification-470_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8470

@@ -3,7 +3,7 @@ spring:
     name: inventory-35-service
   datasource:
     url: jdbc:postgresql://localhost:3306/inventory-35_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8035

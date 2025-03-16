@@ -3,7 +3,7 @@ spring:
     name: reporting-732-service
   datasource:
     url: jdbc:postgresql://localhost:3306/reporting-732_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8732

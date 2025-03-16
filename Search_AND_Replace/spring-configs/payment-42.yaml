@@ -3,7 +3,7 @@ spring:
     name: payment-42-service
   datasource:
     url: jdbc:postgresql://localhost:3306/payment-42_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8042

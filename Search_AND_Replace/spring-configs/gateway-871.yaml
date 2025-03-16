@@ -3,7 +3,7 @@ spring:
     name: gateway-871-service
   datasource:
     url: jdbc:postgresql://localhost:3306/gateway-871_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8871

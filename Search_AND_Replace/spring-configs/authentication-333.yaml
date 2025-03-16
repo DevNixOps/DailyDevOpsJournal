@@ -3,7 +3,7 @@ spring:
     name: auth-service-333-service
   datasource:
     url: jdbc:postgresql://localhost:3306/auth-service-333_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8333

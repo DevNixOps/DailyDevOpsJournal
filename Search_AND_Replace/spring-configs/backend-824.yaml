@@ -3,7 +3,7 @@ spring:
     name: backend-824-service
   datasource:
     url: jdbc:postgresql://localhost:3306/backend-824_db
-    username: webadmin
+    username: appadmin
     password: Secure@321
   server:
     port: 8824
