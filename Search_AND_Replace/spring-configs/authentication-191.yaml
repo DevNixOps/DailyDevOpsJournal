@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: auth-service-191-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/auth-service-191_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8191

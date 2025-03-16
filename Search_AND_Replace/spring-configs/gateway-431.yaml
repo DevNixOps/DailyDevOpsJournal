@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway-431-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/gateway-431_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8431

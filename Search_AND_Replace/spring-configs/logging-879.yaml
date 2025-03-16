@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-879-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-879_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8879

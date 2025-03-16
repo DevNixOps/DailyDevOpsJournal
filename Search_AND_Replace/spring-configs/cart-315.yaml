@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cart-315-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/cart-315_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8315

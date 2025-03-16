@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: inventory-24-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/inventory-24_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8024

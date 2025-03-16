@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: analytics-141-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/analytics-141_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8141

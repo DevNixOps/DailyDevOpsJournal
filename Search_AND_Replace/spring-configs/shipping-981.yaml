@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-981-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-981_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8981

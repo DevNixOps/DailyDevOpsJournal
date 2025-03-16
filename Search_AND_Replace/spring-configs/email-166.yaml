@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: email-166-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/email-166_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8166

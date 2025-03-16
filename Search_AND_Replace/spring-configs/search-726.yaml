@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: search-726-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/search-726_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8726

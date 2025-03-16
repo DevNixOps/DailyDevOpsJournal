@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cart-869-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/cart-869_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8869

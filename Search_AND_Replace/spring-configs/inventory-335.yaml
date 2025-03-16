@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: inventory-335-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/inventory-335_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8335

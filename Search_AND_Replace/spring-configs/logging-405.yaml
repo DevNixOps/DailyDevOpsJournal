@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-405-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-405_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8405

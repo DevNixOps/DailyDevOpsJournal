@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: search-957-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/search-957_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8957

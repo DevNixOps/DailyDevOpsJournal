@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: auth-service-260-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/auth-service-260_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8260

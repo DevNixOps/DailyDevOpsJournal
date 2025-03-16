@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: reporting-68-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/reporting-68_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8068

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: email-279-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/email-279_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8279

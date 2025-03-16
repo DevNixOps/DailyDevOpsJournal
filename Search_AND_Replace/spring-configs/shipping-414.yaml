@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-414-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-414_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8414

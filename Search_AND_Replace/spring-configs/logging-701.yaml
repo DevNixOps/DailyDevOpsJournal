@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-701-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-701_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8701

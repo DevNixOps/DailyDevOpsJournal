@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: analytics-593-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/analytics-593_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8593

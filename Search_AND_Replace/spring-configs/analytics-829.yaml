@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: analytics-829-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/analytics-829_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8829

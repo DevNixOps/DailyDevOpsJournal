@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-587-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-587_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8587

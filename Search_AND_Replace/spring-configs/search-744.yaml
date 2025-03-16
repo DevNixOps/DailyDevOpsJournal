@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: search-744-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/search-744_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8744

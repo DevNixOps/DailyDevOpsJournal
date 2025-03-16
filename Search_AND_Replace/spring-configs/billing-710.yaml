@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: billing-710-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/billing-710_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8710

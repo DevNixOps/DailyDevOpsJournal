@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: email-67-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/email-67_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8067

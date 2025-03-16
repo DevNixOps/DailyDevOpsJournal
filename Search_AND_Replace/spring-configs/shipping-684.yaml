@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-684-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-684_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8684

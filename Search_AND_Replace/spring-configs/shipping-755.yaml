@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-755-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-755_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8755

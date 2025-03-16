@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: billing-60-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/billing-60_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8060

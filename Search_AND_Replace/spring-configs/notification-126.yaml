@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: notification-126-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/notification-126_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8126

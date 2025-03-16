@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-438-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-438_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8438

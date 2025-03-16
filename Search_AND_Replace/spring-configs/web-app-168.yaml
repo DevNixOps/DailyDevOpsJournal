@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: web-app-168-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/web-app-168_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8168

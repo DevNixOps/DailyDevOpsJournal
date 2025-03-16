@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: billing-186-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/billing-186_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8186

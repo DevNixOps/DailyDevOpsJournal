@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cart-562-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/cart-562_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8562

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-625-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-625_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8625

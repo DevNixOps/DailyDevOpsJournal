@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: analytics-538-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/analytics-538_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8538

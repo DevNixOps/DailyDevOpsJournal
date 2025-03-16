@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: order-33-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/order-33_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8033

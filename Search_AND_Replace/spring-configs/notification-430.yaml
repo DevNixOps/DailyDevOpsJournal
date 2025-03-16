@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: notification-430-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/notification-430_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8430

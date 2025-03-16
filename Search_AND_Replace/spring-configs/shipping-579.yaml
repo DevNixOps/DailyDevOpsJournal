@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-579-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-579_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8579

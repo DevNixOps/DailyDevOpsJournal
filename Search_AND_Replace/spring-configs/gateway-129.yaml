@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway-129-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/gateway-129_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8129

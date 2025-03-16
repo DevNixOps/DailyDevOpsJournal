@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: analytics-887-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/analytics-887_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8887

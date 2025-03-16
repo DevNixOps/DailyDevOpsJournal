@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-235-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/payment-235_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8235

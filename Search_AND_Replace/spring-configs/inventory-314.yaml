@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: inventory-314-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/inventory-314_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8314

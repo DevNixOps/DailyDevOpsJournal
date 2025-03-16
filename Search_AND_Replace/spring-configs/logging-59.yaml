@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-59-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-59_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8059

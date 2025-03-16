@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: email-859-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/email-859_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8859

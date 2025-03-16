@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: billing-697-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/billing-697_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8697

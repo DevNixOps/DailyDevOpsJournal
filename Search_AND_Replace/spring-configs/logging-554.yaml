@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-554-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-554_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8554

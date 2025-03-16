@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway-862-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/gateway-862_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8862

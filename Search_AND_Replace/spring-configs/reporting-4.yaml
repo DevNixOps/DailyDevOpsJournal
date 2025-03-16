@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: reporting-4-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/reporting-4_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8004

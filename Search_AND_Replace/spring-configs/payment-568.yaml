@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-568-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/payment-568_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8568

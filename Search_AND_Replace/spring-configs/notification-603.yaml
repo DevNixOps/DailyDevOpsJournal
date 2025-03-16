@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: notification-603-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/notification-603_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8603

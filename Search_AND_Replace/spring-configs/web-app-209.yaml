@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: web-app-209-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/web-app-209_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8209

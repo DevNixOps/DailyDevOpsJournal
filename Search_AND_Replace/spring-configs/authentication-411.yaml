@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: auth-service-411-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/auth-service-411_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8411

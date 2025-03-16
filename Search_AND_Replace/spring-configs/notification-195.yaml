@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: notification-195-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/notification-195_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8195

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: auth-service-735-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/auth-service-735_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8735

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: order-983-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/order-983_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8983

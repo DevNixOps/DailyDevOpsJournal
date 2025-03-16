@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway-515-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/gateway-515_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8515

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-877-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/payment-877_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8877

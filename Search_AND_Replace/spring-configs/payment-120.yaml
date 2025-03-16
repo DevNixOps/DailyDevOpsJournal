@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-120-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/payment-120_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8120

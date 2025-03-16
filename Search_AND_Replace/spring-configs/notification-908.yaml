@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: notification-908-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/notification-908_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8908

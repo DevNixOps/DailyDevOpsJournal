@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-937-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-937_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8937

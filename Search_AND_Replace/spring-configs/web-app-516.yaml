@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: web-app-516-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/web-app-516_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8516

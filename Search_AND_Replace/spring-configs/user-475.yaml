@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: user-475-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/user-475_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8475

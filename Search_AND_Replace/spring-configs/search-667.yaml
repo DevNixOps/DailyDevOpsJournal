@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: search-667-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/search-667_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8667

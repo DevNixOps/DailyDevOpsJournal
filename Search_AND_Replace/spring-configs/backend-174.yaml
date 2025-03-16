@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend-174-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/backend-174_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8174

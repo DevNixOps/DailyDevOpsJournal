@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cart-54-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/cart-54_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8054

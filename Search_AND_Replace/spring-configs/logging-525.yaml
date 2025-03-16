@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-525-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-525_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8525

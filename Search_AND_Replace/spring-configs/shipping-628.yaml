@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: shipping-628-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/shipping-628_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8628

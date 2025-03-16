@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: gateway-911-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/gateway-911_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8911

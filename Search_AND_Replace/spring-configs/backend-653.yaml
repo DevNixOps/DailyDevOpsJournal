@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend-653-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/backend-653_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8653

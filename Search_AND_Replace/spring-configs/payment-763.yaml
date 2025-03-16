@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-763-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/payment-763_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8763

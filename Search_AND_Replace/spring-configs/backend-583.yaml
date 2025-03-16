@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend-583-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/backend-583_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8583

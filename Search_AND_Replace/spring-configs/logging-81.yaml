@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-81-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-81_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8081

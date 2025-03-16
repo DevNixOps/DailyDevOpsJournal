@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: billing-135-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/billing-135_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8135

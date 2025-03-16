@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: inventory-680-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/inventory-680_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8680

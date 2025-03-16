@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: reporting-529-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/reporting-529_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8529

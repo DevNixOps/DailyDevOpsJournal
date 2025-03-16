@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: reporting-349-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/reporting-349_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8349

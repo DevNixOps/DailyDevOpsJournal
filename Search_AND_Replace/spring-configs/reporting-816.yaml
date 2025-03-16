@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: reporting-816-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/reporting-816_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8816

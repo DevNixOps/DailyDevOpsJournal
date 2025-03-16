@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payment-391-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/payment-391_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8391

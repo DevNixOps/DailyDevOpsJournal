@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: logging-631-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/logging-631_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8631

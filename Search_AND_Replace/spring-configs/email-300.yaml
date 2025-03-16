@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: email-300-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/email-300_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8300

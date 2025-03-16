@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: backend-72-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/backend-72_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8072

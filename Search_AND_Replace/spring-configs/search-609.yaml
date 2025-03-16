@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: search-609-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/search-609_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8609

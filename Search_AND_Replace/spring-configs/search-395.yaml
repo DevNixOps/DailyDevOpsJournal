@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: search-395-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/search-395_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8395

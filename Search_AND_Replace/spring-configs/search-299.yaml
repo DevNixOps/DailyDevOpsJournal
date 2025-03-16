@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: search-299-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/search-299_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8299

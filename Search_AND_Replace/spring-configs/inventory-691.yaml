@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: inventory-691-service
+  datasource:
+    url: jdbc:postgresql://localhost:3306/inventory-691_db
+    username: webadmin
+    password: Secure@321
+  server:
+    port: 8691
